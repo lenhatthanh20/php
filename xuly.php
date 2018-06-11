@@ -11,7 +11,7 @@ $bienC = $_POST;
 
 print $bienA;
 print "<br>";
-var_dump($bienB);
+print_r($bienB);
 
 print "<br>";
 var_dump($bienC);

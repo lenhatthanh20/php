@@ -10,10 +10,10 @@ include "connectdatabase.php";
 
 //var_dump($connect);
 
-$ten="THANHLE";
-$tuoi="24";
-$gioitinh="nu";
-$sothich="phim";
+$ten=$_POST["ten"];
+$tuoi=$_POST["tuoi"];
+$gioitinh=$_POST["gioitinh"];
+$sothich=$_POST["sothich"];
 
 $insert = "INSERT INTO `hocsinh`(`ten`, `tuoi`, `gioitinh`, `sothich`)";
 $insert .= "VALUES ('$ten','$tuoi','$gioitinh','$sothich')";
